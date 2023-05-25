@@ -59,6 +59,6 @@ def make_plot(df, enrichment_folder, file_name):
     
     ax1.set_ylabel("")
     
-    plt.savefig(enrichment_folder+'\\'+file_name+'.pdf', bbox_inches = 'tight')  
+    plt.savefig(enrichment_folder + '/' + file_name + '.pdf', bbox_inches = 'tight')  
     plt.show()
     
